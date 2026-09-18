@@ -17,7 +17,7 @@ const PROJECTS = [
     title: "Glowy",
     desc: "A skincare e-commerce site with a bold hero section and a shop built for browsing by category.",
     tags: ["E-commerce", "UI Design"],
-    url: "https://your-glowy-project.vercel.app", 
+    url: "https://pr-3-ten.vercel.app/", 
     image: "images/glowy.png"
   },
   {
