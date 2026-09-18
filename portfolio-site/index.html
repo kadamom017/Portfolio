@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kadam Om — Full Stack Developer</title>
+<meta name="description" content="Portfolio of websites and web apps built by Your Name.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="noise-veil" aria-hidden="true"></div>
+
+<header class="site-header">
+  <a href="#top" class="logo">Kadam Om</a>
+  <nav class="main-nav">
+    <a href="#work">Work</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span>
+  </button>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <p class="hero-role">Full Stack Developer / open to work</p>
+    <h1 class="hero-line">
+      I design and build<br>
+      websites that <span class="hero-accent">work as hard</span><br>
+      as the people who use them.
+    </h1>
+    <p class="hero-sub">
+      A few of the sites I've shipped are below — each one
+      opens the live version so you can click around rather than just look at a screenshot.
+    </p>
+  </section>
+
+  <!-- WORK -->
+  <section id="work" class="work">
+    <div class="section-head">
+      <h2>My Projects</h2>
+      <p>These are some projects done by me.</p>
+    </div>
+
+    <div class="work-list" id="workList">
+      <!-- Project rows are injected by script.js from the PROJECTS array -->
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <div class="about-grid">
+      <div class="about-photo">
+        <img src="./images/profile.jpeg" alt="Portrait photo">
+      </div>
+      <div class="about-copy-wrap">
+        <h2>A little about the work</h2>
+        <div class="about-copy">
+          <p>
+            I build clean, functional web projects using HTML, CSS, JavaScript, React, and Bootstrap.
+            I’m drawn to simple, practical interfaces and enjoy working on websites, dashboards, and small applications that solve real problems. 
+            I’m looking for projects where I can learn, contribute, and grow as a developer.
+          </p>
+          <ul class="skill-list">
+            <li>HTML / CSS / JavaScript</li>
+            <li>React</li>
+            <li>Bootstrap</li>
+            <li>C / C++</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <h2>Want to work together?</h2>
+    <p>The fastest way to reach me is email.</p>
+    <a class="contact-link" href="mailto:you@example.com">kadamom0017@gmail.com</a>
+    <div class="social-row">
+      <a href="https://github.com/kadamom017">GitHub</a>
+      <a href="https://www.linkedin.com/in/kadam-om-710272365/">LinkedIn</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <span>© <span id="year"></span>Kadam Om Sanjay</span>
+  <span>Built with HTML, CSS &amp; JS — deployed on Vercel</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
